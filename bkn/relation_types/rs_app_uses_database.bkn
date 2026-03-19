@@ -1,0 +1,22 @@
+---
+type: relation_type
+id: rs_app_uses_database
+name: 被保护应用支持的数据库类型
+tags: [灾备, 关系]
+---
+
+## RelationType: rs_app_uses_database
+
+**被保护应用支持的数据库类型** - 某被保护应用使用某数据库类型。
+
+### Endpoint
+
+| Source | Target | Type |
+|--------|--------|------|
+| protected_application | supported_database | direct |
+
+### Mapping Rules
+
+| Source Property | Target Property |
+|-----------------|-----------------|
+| id | protected_application_id |

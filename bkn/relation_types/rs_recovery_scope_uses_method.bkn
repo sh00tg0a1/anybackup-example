@@ -1,0 +1,22 @@
+---
+type: relation_type
+id: rs_recovery_scope_uses_method
+name: 恢复范围使用的恢复方式
+tags: [灾备, 关系]
+---
+
+## RelationType: rs_recovery_scope_uses_method
+
+**恢复范围使用的恢复方式** - 某恢复范围可使用某恢复方式。
+
+### Endpoint
+
+| Source | Target | Type |
+|--------|--------|------|
+| recovery_scope | recovery_method | direct |
+
+### Mapping Rules
+
+| Source Property | Target Property |
+|-----------------|-----------------|
+| id | recovery_scope_id |

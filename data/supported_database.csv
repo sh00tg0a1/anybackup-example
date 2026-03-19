@@ -1,0 +1,6 @@
+id,name,db_category,default_port,protected_application_id,description
+mariadb,MariaDB,relation,3306,anyshare,需 root 用户和对应密码
+dameng,达梦,relation,5236,anyshare,需 SYSDBA 管理员账号和对应密码
+tidb,TiDB,relation,4000,anyshare,需 root 用户和对应密码
+oceanbase,OceanBase,relation,2883,anyshare,需搭建 AnyShare 时使用的用户@租户名
+mongodb,MongoDB,nosql,28000,anyshare,需 root 用户和对应密码

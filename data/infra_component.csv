@@ -1,0 +1,10 @@
+id,name,role,backup_software_id,description
+client,AnyBackup Client 客户端,生产端部署,ab8,需部署在生产端机器上，安装时选择 AnyShare runner
+storage_pool,存储池,备份存储,ab8,新建存储池且状态正常、空间充足
+storage_service,存储服务,备份目标,ab8,备份存储位置选择
+backup_plane,备份平面,网络,ab8,管理控制台需配置备份平面
+replication_plane,复制平面,网络,ab8,若使用复制需配置
+basic_license,基本件,授权,ab8,需添加并激活
+capacity_agent,容量代理,授权,ab8,需添加并激活
+anyshare_agent,AnyShare 备份代理,授权,ab8,需添加并激活授权码
+oss_gateway,OSS 网关,对象存储访问,ab8,需获取账户 ID 和密钥，用于备份恢复对象存储数据

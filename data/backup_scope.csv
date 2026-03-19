@@ -1,0 +1,5 @@
+id,name,target_level,backup_method_id,description
+app_level,应用级(站点级)备份,站点级,full_backup,通过脚本备份关系型数据库、MongoDB，通过 OSS 网关备份对象存储；支持完全备份与增量备份
+app_level_inc,应用级增量备份,站点级,incremental_backup,通过脚本备份关系型数据库、MongoDB，通过 OSS 网关备份对象存储；支持完全备份与增量备份
+doclib_level,文档库级备份,文档库级,full_backup,通过 efast 和 OSS 网关备份、恢复指定文件；支持完全备份与增量备份
+doclib_level_inc,文档库级增量备份,文档库级,incremental_backup,通过 efast 和 OSS 网关备份、恢复指定文件；支持完全备份与增量备份

@@ -1,0 +1,25 @@
+---
+type: object_type
+id: constraint
+name: 使用约束
+tags: [灾备, 约束]
+---
+
+## ObjectType: constraint
+
+**使用约束** - 备份恢复的使用限制或注意事项。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 约束唯一标识 | id |
+| name | 名称 | string | 约束名称 | name |
+| category | 类别 | string | 如备份、恢复、版本 | category |
+| description | 描述 | text | 约束说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

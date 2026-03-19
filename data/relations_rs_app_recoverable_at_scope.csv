@@ -1,0 +1,4 @@
+protected_application_id,recovery_scope_id,relation_type_id
+anyshare,site_level,rs_app_recoverable_at_scope
+anyshare,doclib_level_rec,rs_app_recoverable_at_scope
+anyshare,file_level,rs_app_recoverable_at_scope

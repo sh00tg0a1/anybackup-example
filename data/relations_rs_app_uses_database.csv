@@ -1,0 +1,6 @@
+protected_application_id,supported_database_id,relation_type_id
+anyshare,mariadb,rs_app_uses_database
+anyshare,dameng,rs_app_uses_database
+anyshare,tidb,rs_app_uses_database
+anyshare,oceanbase,rs_app_uses_database
+anyshare,mongodb,rs_app_uses_database

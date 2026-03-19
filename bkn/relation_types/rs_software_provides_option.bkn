@@ -1,0 +1,22 @@
+---
+type: relation_type
+id: rs_software_provides_option
+name: 备份软件提供的保护选项
+tags: [灾备, 关系]
+---
+
+## RelationType: rs_software_provides_option
+
+**备份软件提供的保护选项** - 某备份软件提供某保护选项。
+
+### Endpoint
+
+| Source | Target | Type |
+|--------|--------|------|
+| backup_software | protection_option | direct |
+
+### Mapping Rules
+
+| Source Property | Target Property |
+|-----------------|-----------------|
+| id | backup_software_id |

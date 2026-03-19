@@ -1,0 +1,25 @@
+---
+type: object_type
+id: recovery_method
+name: 恢复方式
+tags: [灾备, 恢复]
+---
+
+## ObjectType: recovery_method
+
+**恢复方式** - 恢复时对已存在文件的处理方式。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 恢复方式唯一标识 | id |
+| name | 名称 | string | 方式名称 | name |
+| recovery_scope_id | 恢复范围 | string | 关联的恢复范围 id（rs_recovery_scope_uses_method） | recovery_scope_id |
+| description | 描述 | text | 方式说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

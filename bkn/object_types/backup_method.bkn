@@ -1,0 +1,25 @@
+---
+type: object_type
+id: backup_method
+name: 备份方式
+tags: [灾备, 备份]
+---
+
+## ObjectType: backup_method
+
+**备份方式** - 定时备份支持的方式，如完全备份、增量备份。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 备份方式唯一标识 | id |
+| name | 名称 | string | 方式名称 | name |
+| protected_application_id | 被保护应用 | string | 关联的被保护应用 id（rs_app_supports_backup_method） | protected_application_id |
+| description | 描述 | text | 方式说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

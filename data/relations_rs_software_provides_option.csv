@@ -1,0 +1,6 @@
+backup_software_id,protection_option_id,relation_type_id
+ab8,transport_encryption,rs_software_provides_option
+ab8,multithread_backup,rs_software_provides_option
+ab8,backup_retry,rs_software_provides_option
+ab8,forced_retention,rs_software_provides_option
+ab8,sla,rs_software_provides_option

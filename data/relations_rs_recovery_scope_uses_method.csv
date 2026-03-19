@@ -1,0 +1,5 @@
+recovery_scope_id,recovery_method_id,relation_type_id
+doclib_level_rec,skip_doclib,rs_recovery_scope_uses_method
+doclib_level_rec,overwrite_doclib,rs_recovery_scope_uses_method
+file_level,skip_file,rs_recovery_scope_uses_method
+file_level,overwrite_file,rs_recovery_scope_uses_method

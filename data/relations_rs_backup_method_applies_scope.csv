@@ -1,0 +1,5 @@
+backup_method_id,backup_scope_id,relation_type_id
+full_backup,app_level,rs_backup_method_applies_scope
+full_backup,doclib_level,rs_backup_method_applies_scope
+incremental_backup,app_level_inc,rs_backup_method_applies_scope
+incremental_backup,doclib_level_inc,rs_backup_method_applies_scope

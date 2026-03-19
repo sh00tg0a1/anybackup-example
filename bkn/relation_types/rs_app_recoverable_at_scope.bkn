@@ -1,0 +1,22 @@
+---
+type: relation_type
+id: rs_app_recoverable_at_scope
+name: 被保护应用可恢复的范围
+tags: [灾备, 关系]
+---
+
+## RelationType: rs_app_recoverable_at_scope
+
+**被保护应用可恢复的范围** - 某被保护应用可在某恢复范围内恢复。
+
+### Endpoint
+
+| Source | Target | Type |
+|--------|--------|------|
+| protected_application | recovery_scope | direct |
+
+### Mapping Rules
+
+| Source Property | Target Property |
+|-----------------|-----------------|
+| id | protected_application_id |

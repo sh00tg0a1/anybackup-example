@@ -1,0 +1,2 @@
+id,name,version,description
+ab8,AnyBackup Family 8,8.0.9.0,将 AnyShare 中的数据库和对象存储数据统一备份到控制台，实现 AnyShare 资源粒度、文档库粒度备份

@@ -1,0 +1,2 @@
+id,name,supported_versions,backup_software_id,description
+anyshare,AnyShare,7.0.6.4/7.0.6.5/7.0.6.5+,ab8,支持站点级、文档库级、文件级恢复；关系型数据库支持 MariaDB/达梦/TiDB/OceanBase，NoSQL 支持 MongoDB

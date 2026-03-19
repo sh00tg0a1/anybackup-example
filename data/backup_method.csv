@@ -1,0 +1,3 @@
+id,name,protected_application_id,description
+full_backup,完全备份,anyshare,AnyShare 定时备份支持完全备份
+incremental_backup,增量备份,anyshare,AnyShare 定时备份支持增量备份

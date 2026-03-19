@@ -1,0 +1,26 @@
+---
+type: object_type
+id: protected_application
+name: 被保护应用
+tags: [灾备, 应用]
+---
+
+## ObjectType: protected_application
+
+**被保护应用** - 可被备份软件保护的应用系统，如 AnyShare。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 被保护应用唯一标识 | id |
+| name | 名称 | string | 应用名称 | name |
+| supported_versions | 支持版本 | string | 支持的版本号或范围 | supported_versions |
+| backup_software_id | 备份软件 | string | 关联的备份软件 id（rs_software_protects_app） | backup_software_id |
+| description | 描述 | text | 应用说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

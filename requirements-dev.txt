@@ -1,0 +1,4 @@
+# 开发/测试依赖
+pytest>=8.0.0
+# BKN 校验需要 Python SDK（与 AGENTS.md 中 Go CLI 二选一或同时使用）:
+#   pip install -e /Users/cx/Work/kweaver-ai/bkn-specification/sdk/python

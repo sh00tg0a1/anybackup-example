@@ -1,0 +1,25 @@
+---
+type: concept_group
+id: dr_core
+name: 灾备核心概念
+tags: [灾备]
+---
+
+## ConceptGroup: dr_core
+
+**灾备核心概念** - 备份软件、被保护应用、备份/恢复操作知识、基础设施与约束。
+
+### Object Types
+
+| ID | Name | Description |
+|----|------|-------------|
+| backup_software | 备份软件 | 提供数据保护的产品 |
+| protected_application | 被保护应用 | 可被保护的应用系统 |
+| backup_method | 备份方式 | 完全/增量等 |
+| backup_scope | 备份范围 | 应用级/文档库级 |
+| recovery_scope | 恢复范围 | 站点级/文档库级/文件级 |
+| recovery_method | 恢复方式 | 跳过/覆盖已存在文件 |
+| protection_option | 保护选项 | 加密、重试、保留等 |
+| infra_component | 基础设施组件 | 客户端、存储池等 |
+| supported_database | 支持的数据库类型 | MariaDB、MongoDB 等 |
+| constraint | 使用约束 | 版本、恢复后限制等 |

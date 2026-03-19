@@ -1,0 +1,25 @@
+---
+type: object_type
+id: backup_software
+name: 备份软件
+tags: [灾备, 备份]
+---
+
+## ObjectType: backup_software
+
+**备份软件** - 提供数据保护能力的备份产品，如 AnyBackup Family 8。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 备份软件唯一标识 | id |
+| name | 名称 | string | 产品名称 | name |
+| version | 版本 | string | 产品版本号 | version |
+| description | 描述 | text | 产品说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

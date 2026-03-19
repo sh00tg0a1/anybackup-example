@@ -1,0 +1,26 @@
+---
+type: object_type
+id: backup_scope
+name: 备份范围
+tags: [灾备, 备份]
+---
+
+## ObjectType: backup_scope
+
+**备份范围** - 备份的粒度级别，如应用级、文档库级。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 备份范围唯一标识 | id |
+| name | 名称 | string | 范围名称 | name |
+| target_level | 目标层级 | string | 如站点级、文档库级 | target_level |
+| backup_method_id | 备份方式 | string | 关联的备份方式 id（rs_backup_method_applies_scope） | backup_method_id |
+| description | 描述 | text | 范围说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

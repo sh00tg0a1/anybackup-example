@@ -1,0 +1,22 @@
+---
+type: relation_type
+id: rs_software_protects_app
+name: 备份软件保护被保护应用
+tags: [灾备, 关系]
+---
+
+## RelationType: rs_software_protects_app
+
+**备份软件保护被保护应用** - 某备份软件可保护某被保护应用。
+
+### Endpoint
+
+| Source | Target | Type |
+|--------|--------|------|
+| backup_software | protected_application | direct |
+
+### Mapping Rules
+
+| Source Property | Target Property |
+|-----------------|-----------------|
+| id | backup_software_id |

@@ -1,0 +1,6 @@
+id,name,category,configurable_params,backup_software_id,description
+transport_encryption,传输加密,安全,TLS 协议,ab8,客户端与存储服务通过 TLS 建立连接，备份/恢复过程中加密数据
+multithread_backup,多线程备份,性能,扫描、读写线程数,ab8,配置 AnyShare 对象的扫描、读写线程数，调试备份最佳性能
+backup_retry,备份失败重试,可靠性,重试次数 1-5、等待时间 1-30 分钟,ab8,作业失败后按等待时间自动重试，直至达到重试次数
+forced_retention,强制数据保留,安全,1-9999 天,ab8,保留期限内数据无法被清理，防止凭证泄露导致备份数据被删
+sla,SLA,可选,选填,ab8,添加备份配置后可选择对应 SLA

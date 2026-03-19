@@ -1,0 +1,8 @@
+id,name,category,description
+version_single,单站点版本约束,版本,单站点支持 AnyShare 7.0.6.4/7.0.6.5；7.0.6.4 需控制台 2.22.4、主模块 7.0.6.4.7+
+rdb_only,关系型数据库限制,备份,仅支持 MariaDB/达梦/OceanBase/TiDB
+no_backup_after_recovery,恢复后不可备份,恢复,站点级恢复后的 AnyShare 环境不支持备份
+bucket_count_match,bucket 数目一致,恢复,站点级恢复目的端 bucket 数目必须与备份时一致
+no_knowledge_center,不支持知识中心,备份,不支持备份恢复 AnyShare 知识中心数据
+oss_recreate_after_upgrade,升级后重建 OSS 账户,版本,AnyShare 升级后需重新创建 OSS 网关账户并编辑站点 OSS 账户信息
+multisite_version,多站点版本,版本,仅支持 AnyShare 7.0.6.5 及以上进行多站点备份恢复

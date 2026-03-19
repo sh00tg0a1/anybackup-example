@@ -1,0 +1,27 @@
+---
+type: object_type
+id: recovery_scope
+name: 恢复范围
+tags: [灾备, 恢复]
+---
+
+## ObjectType: recovery_scope
+
+**恢复范围** - 恢复的粒度级别，如站点级、文档库级、文件级。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 恢复范围唯一标识 | id |
+| name | 名称 | string | 范围名称 | name |
+| target_level | 目标层级 | string | 如站点级、文档库级、文件级 | target_level |
+| applicable_after | 适用前提 | string | 适用的备份类型 | applicable_after |
+| protected_application_id | 被保护应用 | string | 关联的被保护应用 id（rs_app_recoverable_at_scope） | protected_application_id |
+| description | 描述 | text | 范围说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

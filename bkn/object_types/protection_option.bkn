@@ -1,0 +1,27 @@
+---
+type: object_type
+id: protection_option
+name: 保护选项
+tags: [灾备, 保护]
+---
+
+## ObjectType: protection_option
+
+**保护选项** - 备份/恢复时可配置的特性，如传输加密、多线程、失败重试等。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 保护选项唯一标识 | id |
+| name | 名称 | string | 选项名称 | name |
+| category | 类别 | string | 如安全、性能、可靠性 | category |
+| configurable_params | 可配置参数 | string | 参数范围或说明 | configurable_params |
+| backup_software_id | 备份软件 | string | 关联的备份软件 id（rs_software_provides_option） | backup_software_id |
+| description | 描述 | text | 选项说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

@@ -1,0 +1,4 @@
+id,name,target_level,applicable_after,protected_application_id,description
+site_level,站点级恢复,站点级,应用级备份后,anyshare,将站点整体恢复至目的端，恢复后用户信息、数据均与源端一致
+doclib_level_rec,文档库级恢复,文档库级,应用级备份后或文档库级备份后,anyshare,选择备份时间点数据源中的文档库恢复至目标相同类型文档库
+file_level,文件级恢复,文件级,应用级备份后或文档库级备份后,anyshare,选择备份时间点数据源中的指定文件恢复至目标文档库

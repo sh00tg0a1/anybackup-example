@@ -1,0 +1,26 @@
+---
+type: object_type
+id: infra_component
+name: 基础设施组件
+tags: [灾备, 基础设施]
+---
+
+## ObjectType: infra_component
+
+**基础设施组件** - 备份恢复依赖的组件，如客户端、存储池、OSS 网关等。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 组件唯一标识 | id |
+| name | 名称 | string | 组件名称 | name |
+| role | 角色 | string | 组件在备份恢复中的角色 | role |
+| backup_software_id | 备份软件 | string | 关联的备份软件 id（rs_software_depends_component） | backup_software_id |
+| description | 描述 | text | 组件说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:

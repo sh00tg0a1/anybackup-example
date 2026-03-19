@@ -1,0 +1,18 @@
+---
+type: network
+id: dr_backup_network
+name: 灾备与备份业务知识网络
+tags: [灾备, 备份, DR]
+business_domain: disaster_recovery
+---
+
+# 灾备与备份业务知识网络
+
+面向灾备管理员的指导性知识网络，基于 AnyBackup Family 8 AnyShare 备份恢复用户指南。描述备份软件、被保护应用、备份/恢复操作知识、基础设施与约束，不含具体服务器实例。
+
+## Network Overview
+
+- **ObjectTypes** (`object_types/`): backup_software, protected_application, backup_method, backup_scope, recovery_scope, recovery_method, protection_option, infra_component, supported_database, constraint
+- **RelationTypes** (`relation_types/`): rs_software_protects_app, rs_app_supports_backup_method, rs_backup_method_applies_scope, rs_app_recoverable_at_scope, rs_recovery_scope_uses_method, rs_software_provides_option, rs_software_depends_component, rs_app_uses_database
+- **ConceptGroups** (`concept_groups/`): dr_core
+- **实例数据** (`data/`): 各对象类 CSV 与关系实例 CSV，严格来源于用户指南文档

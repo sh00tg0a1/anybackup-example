@@ -1,0 +1,10 @@
+backup_software_id,infra_component_id,relation_type_id
+ab8,client,rs_software_depends_component
+ab8,storage_pool,rs_software_depends_component
+ab8,storage_service,rs_software_depends_component
+ab8,backup_plane,rs_software_depends_component
+ab8,replication_plane,rs_software_depends_component
+ab8,basic_license,rs_software_depends_component
+ab8,capacity_agent,rs_software_depends_component
+ab8,anyshare_agent,rs_software_depends_component
+ab8,oss_gateway,rs_software_depends_component

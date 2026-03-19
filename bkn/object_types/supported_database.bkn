@@ -1,0 +1,27 @@
+---
+type: object_type
+id: supported_database
+name: 支持的数据库类型
+tags: [灾备, 数据库]
+---
+
+## ObjectType: supported_database
+
+**支持的数据库类型** - 被保护应用使用的关系型或 NoSQL 数据库类型。
+
+### Data Properties
+
+| Name | Display Name | Type | Description | Mapped Field |
+|------|--------------|------|-------------|--------------|
+| id | 主键 | string | 数据库类型唯一标识 | id |
+| name | 名称 | string | 数据库名称 | name |
+| db_category | 数据库类别 | string | 如 relation/nosql | db_category |
+| default_port | 默认端口 | integer | 默认连接端口 | default_port |
+| protected_application_id | 被保护应用 | string | 关联的被保护应用 id（rs_app_uses_database） | protected_application_id |
+| description | 描述 | text | 数据库说明 | description |
+
+### Keys
+
+Primary Keys: id
+Display Key: name
+Incremental Key:
