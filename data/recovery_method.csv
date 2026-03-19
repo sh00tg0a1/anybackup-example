@@ -1,5 +1,5 @@
 id,name,recovery_scope_id,description
 skip_doclib,跳过已存在的文件,doclib_level_rec,恢复时目标文档库内存在相同名称的文件将跳过不恢复
 overwrite_doclib,覆盖已存在的文件,doclib_level_rec,恢复时目标文档库内存在相同名称的文件将进行覆盖
-skip_file,跳过已存在的文件,file_level,恢复时目标文档库内存在相同名称的文件将跳过不恢复
-overwrite_file,覆盖已存在的文件,file_level,恢复时目标文档库内存在相同名称的文件将进行覆盖
+skip_file,跳过已存在的文件,file_level,同上
+overwrite_file,覆盖已存在的文件,file_level,同上
