@@ -20,11 +20,13 @@
 **Python SDK**（推荐，与测试一致）：
 
 ```bash
-pip install -e /Users/cx/Work/kweaver-ai/bkn-specification/sdk/python
+pip install kweaver-bkn
 pip install -r requirements-dev.txt
 python scripts/validate_network.py
 pytest
 ```
+
+> SDK 已发布至 PyPI：[kweaver-bkn](https://pypi.org/project/kweaver-bkn/)（`pip install kweaver-bkn`，Python 导入包名为 `bkn`）。
 
 **Go CLI**（若本机可构建 `bkn-specification/cli`）：
 
