@@ -34,6 +34,11 @@ pytest
 cd /path/to/bkn-specification/cli && go run ./cmd/bkn validate network /path/to/anybackup
 ```
 
+## 参考资料
+
+- [BKN 语言规范（SPECIFICATION.md）](https://github.com/kweaver-ai/bkn-specification/blob/main/docs/SPECIFICATION.md)
+- [kweaver-bkn Python SDK（PyPI）](https://pypi.org/project/kweaver-bkn/)
+
 ## Ralph 迭代
 
 任务定义见 [RALPH_TASK.md](./RALPH_TASK.md)；状态与护栏见 [.ralph/](./.ralph/)。
